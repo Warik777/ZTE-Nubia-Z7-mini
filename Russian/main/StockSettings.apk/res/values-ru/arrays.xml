@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ccpu_entries">
+        <item>Официальный CPU в обычном режиме</item>
+        <item>Режим производительности CPU</item>
+    </string-array>
+    <string-array name="camera_entries">
+        <item>Теплая камера</item>
+        <item>Холодная камера</item>
+    </string-array>
+    <string-array name="vold_entries">
+        <item>Внешняя память</item>
+        <item>Встроенная память</item>
+    </string-array>
+</resources>

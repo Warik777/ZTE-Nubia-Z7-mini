@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/stock_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/system">
+        <CheckBoxPreference android:title="@string/capture_screen_title" android:key="power_volume_screenshot" android:summary="@string/capture_screen_summary" android:defaultValue="false" />
+        <Preference android:title="@string/change_phone">
+            <intent android:targetPackage="com.android.stocksettings" android:action="android.intent.action.MAIN" android:targetClass="com.android.stocksettings.KillApp" />
+        </Preference>
+        <Preference android:title="Галерея параметры хранения по умолчанию" android:key="DisplaySettings">
+            <intent android:targetPackage="com.android.ztegallerysettings" android:action="android.intent.action.MAIN" android:targetClass="com.android.ztegallerysettings.ControlSettings" />
+        </Preference>
+        <Preference android:title="@string/splitscreen" android:key="splitscreen">
+            <intent android:targetPackage="com.android.settings_ex" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings_ex.splitscreen.SplitScreenSettingsActivity" />
+        </Preference>
+        <Preference android:title="@string/DisplaySettings" android:key="DisplaySettings" android:summary="@string/DisplaySettings_summary">
+            <intent android:targetPackage="com.android.settings_ex" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings_ex.DisplaySettings" />
+        </Preference>
+        <Preference android:title="@string/feature" android:key="feature" android:summary="@string/feature_summary">
+            <intent android:targetPackage="com.android.settings_ex" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings_ex.Settings$GestureSettingsActivity" />
+        </Preference>
+        <Preference android:title="@string/camera_sound_switch" android:key="camera_sound_switch" android:summary="@string/camera_sound_warning">
+            <intent android:targetPackage="com.android.stocksettings" android:action="android.intent.action.MAIN" android:targetClass="com.android.stocksettings.CameraSound" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/versions">
+        <PreferenceScreen android:enabled="false" android:title="@string/version" android:summary="@string/version_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>
