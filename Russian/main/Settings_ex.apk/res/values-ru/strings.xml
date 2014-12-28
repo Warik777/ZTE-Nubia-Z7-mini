@@ -2257,7 +2257,7 @@ It не стирать :
     <string name="quick_communication_info1">Когда есть пропущеный вызов, &lt;font_size>проведите&lt;/font>size&gt; вашим пальцем по иконке вызова&lt;br/>для &lt;font_size> просмотра &lt;/font>size&gt; и быстрого набора</string>
     <string name="quick_communication_info2">&lt;font_size>Проведите&lt;/font>size&gt; через список вызовов, контактов, сообщений &lt;br/>для быстрого набора и отправки сообщений</string>
     <string name="split_screen_settings">Разделение экрана</string>
-    <string name="split_screen_info">Разделите экран на две части, чтобы видеть работу двуз приложений одновременно</string>
+    <string name="split_screen_info">Разделите экран на две части, чтобы видеть работу двух приложений одновременно</string>
     <string name="split_screen_manual">Включить деление экрана вручную</string>
     <string name="split_screen_slide_up_titile">Как пользоваться жестом разделения экрана</string>
     <string name="split_screen_slide_up_summary">Проведите вверх от нижней части экрана, чтобы включить разделение</string>
