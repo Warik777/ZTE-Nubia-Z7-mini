@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Заводские настройки</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    <string name="control">Контроль</string>
+    <string name="display">Дисплей</string>
+    <string name="power_save">Энергосбережение</string>
+    <string name="smart_screen">Умный экран</string>
+    <string name="spen">Перо S Pen</string>
+    <string name="onehand_mode">Управление одной рукой</string>
+    <string name="onehand_mode_summary">Отрегулируйте масштаб и положение экранов, проведя пальцем по краю экрана</string>
+    <string name="auto_adjust_touch_title">Повысить чувствительность</string>
+    <string name="auto_adjust_touch_summary">Повышение чувствительности сенсорного экрана для управления устройством в перчатках</string>
+    <string name="multi_window_title">Несколько окон</string>
+    <string name="multi_window_summary">Вы можете одновременно использовать два приложения</string>
+    <string name="open_via_multi_window_view">Откр. в режиме неск. окон</string>
+    <string name="open_via_multi_window_view_summary">Автоматическое отображение содержимого в режиме нескольких окон при открытии файлов из папок “Мои файлы” и “Видео” или вложений из сообщений электронной почты и SMS</string>
+    <string name="display_mode">Режим экрана</string>
+    <string name="reading_mode">Режим чтения</string>
+    <string name="reading_mode_summary">Экран оптимизирован для чтения. Этот режим доступен только в некоторых приложениях</string>
+    <string name="reading_mode_list">Приложения для режима чтения</string>
+    <string name="reading_mode_list_summary">Выберите приложения для работы в режиме чтения</string>
+    <string name="display_saving">Автонастр. яркости экрана</string>
+    <string name="display_saving_mode_summary">Для экономии энергии настройте параметры экрана в соответствии с результатами анализа изображений</string>
+    <string name="miuigallery_title">Отобр. фото с внешней SDCard в Галерее</string>
+    <string name="miuigallery_summary">Включите опцию для отображения фото с внешней SDCard на главной странице Галереи</string>
+    <string name="sec_bootanimation_title">Использовать анимацию загрузки MIUI</string>
+    <string name="sec_bootanimation_summary">Включите опцию для использования бутанимации MIUI вместо анимации Samsung</string>
+    <string name="sec_bootanimation_fail">Не удалось изменить, необходимы права root</string>
+    <string name="vibration_intensity">Интенсивность вибрации</string>
+    <string name="vibration_intensity_summary">Отрегулируйте интенсивность вибрации</string>
+    <string name="incoming_call">Входящие звонки</string>
+    <string name="notification_volume_title">Уведомление</string>
+    <string name="haptic_feedback_enable_title">Виброотклик</string>
+</resources>
