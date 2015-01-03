@@ -303,4 +303,15 @@ d MMMM yyyy"</string>
     <string name="screen_rotation_freeze_message">Поворот экрана заблокирован в ландшафтном режиме</string>
     <string name="screen_button_disabled_message">Нижние клавиши отключены. Вы можете включить их снова, нажав клавиши \"Домой\" + \"Питание\".</string>
     <string name="screen_button_enabled_message">Нижние клавиши включены</string>
+    <string name="access_control_need_password">"%s защищено паролем
+"</string>
+	<string name="move_data_to_sdcard_message"/>
+	<string name="move_data_to_sdcard_title"/>
+	<string name="screenshot_failed_title"/>
+	<string name="settings_expandable_under_fullscreen"/>
+	<string name="settings_expandable_under_fullscreen_summary"/>
+	<string name="settings_expandable_under_keyguard_summary"/>
+	<string name="settings_expanded_view"/>
+	<string name="settings_screenshot_notification_disabled"/>
+	<string name="status_bar_toggle_power_low"/>
 </resources>
